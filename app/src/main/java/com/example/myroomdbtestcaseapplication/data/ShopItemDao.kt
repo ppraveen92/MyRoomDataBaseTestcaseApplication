@@ -4,6 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.room.*
 import com.example.myroomdbtestcaseapplication.ShopItemModel
 
+/*
+* Data Access Object where we do table operation
+* */
 @Dao
 interface ShopItemDao {
 
